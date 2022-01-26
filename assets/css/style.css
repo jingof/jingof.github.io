@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #home h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 90px;
   font-weight: 700;
   line-height: 56px;
   color: #45505b;
@@ -304,6 +304,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+#home .php-email-form button[type=submit] {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+#home .php-email-form button[type=submit]:hover {
+  background: #0678e3;
 }
 
 /*--------------------------------------------------------------
