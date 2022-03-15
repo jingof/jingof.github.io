@@ -1063,34 +1063,25 @@ section {
 /*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
-.table-container {
-	max-width: 1000px;
-	margin-right:auto;
-	margin-left:auto;
-	display:flex;
-  vertical-align: middle;
-	justify-content:center;
-	align-items:center;
-	min-height:100vh;
-}
+
 
 .table {
 	width:100%;
-	border:1px solid #75c42c;
+	border:0.5px groove #0563BC;
 }
 
 .table-header {
 	display:flex;
 	width:100%;
-	background:#000;
+	background:rgb(2, 11, 63);
 	padding:18px 0;
 }
 
 .table-row {
 	display:flex;
 	width:100%;
-	padding:18px 0;
-  border:1px solid #c7e7aa;
+	padding:4px 0;
+  border:0.px solid #0563BC;
 }
 
 .table-data, .header__item {
