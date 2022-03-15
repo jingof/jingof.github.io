@@ -1063,7 +1063,16 @@ section {
 /*--------------------------------------------------------------
 # Table
 --------------------------------------------------------------*/
-
+.table-container {
+	max-width: 1000px;
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+  vertical-align: middle;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
 
 .table {
 	width:100%;
@@ -1082,15 +1091,11 @@ section {
 	width:100%;
 	padding:18px 0;
   border:1px solid #c7e7aa;
-  
-	
 }
 
 .table-data, .header__item {
 	flex: 1 1 20%;
-  ;
 	text-align:center;
-  
   justify-content:center;
 }
 
