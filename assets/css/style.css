@@ -1059,3 +1059,42 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Table
+--------------------------------------------------------------*/
+
+
+.table {
+	width:100%;
+	border:1px solid #75c42c;
+}
+
+.table-header {
+	display:flex;
+	width:100%;
+	background:#000;
+	padding:18px 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+	padding:18px 0;
+  border:1px solid #c7e7aa;
+  
+	
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+  ;
+	text-align:center;
+  
+  justify-content:center;
+}
+
+.header__item {
+	text-transform:uppercase;
+  color:#fff;
+}
